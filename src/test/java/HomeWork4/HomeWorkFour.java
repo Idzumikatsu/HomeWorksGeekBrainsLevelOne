@@ -1,3 +1,5 @@
+package HomeWork4;
+
 import java.util.Random;
 import java.util.Scanner;
 class HomeWorkFour {
