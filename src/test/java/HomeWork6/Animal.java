@@ -1,3 +1,5 @@
+package HomeWork6;
+
 public abstract class Animal {
     String name;
 
