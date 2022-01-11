@@ -1,4 +1,4 @@
-package HomeWork7;
+package LevelOneJava.HomeWork7;
 
 public class Cat {
     private final String name;

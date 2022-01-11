@@ -1,4 +1,4 @@
-package HomeWork5;
+package LevelOneJava.HomeWork5;
 
 public class Employee{
     private String name;

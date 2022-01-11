@@ -1,4 +1,4 @@
-package HomeWork7;
+package LevelOneJava.HomeWork7;
 
 import java.util.Arrays;
 

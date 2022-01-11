@@ -1,4 +1,4 @@
-package ru.gb;
+package LevelOneJava.HomeWork3;
 
 import java.util.Arrays;
 import java.util.Scanner;

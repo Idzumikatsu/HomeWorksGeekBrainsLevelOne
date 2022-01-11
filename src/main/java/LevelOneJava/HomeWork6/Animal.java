@@ -1,4 +1,4 @@
-package HomeWork6;
+package LevelOneJava.HomeWork6;
 
 public abstract class Animal {
     String name;

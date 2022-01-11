@@ -1,4 +1,4 @@
-package HomeWork6;
+package LevelOneJava.HomeWork6;
 
 public class AppRunner {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HomeWork6;
+package LevelOneJava.HomeWork6;
 
 public class Cat extends Animal {
     private static int value;
