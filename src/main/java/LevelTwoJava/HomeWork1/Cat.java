@@ -1,25 +1,34 @@
 package LevelTwoJava.HomeWork1;
 
 public class Cat implements Players {
-    final int jumpLim = 200;
-    final int runLim = 80;
+
+    private boolean play = true;
+    private static final int RUN_LIMIT = 10;
+    private static final int JUMP_LIMIT = 3;
 
     @Override
-    public void jump() {
-        System.out.println("Кот прыгнул");
+    public boolean isPlay() {
+        return play;
     }
 
     @Override
-    public void run() {
-        System.out.println("Кот побежал");
+    public void setPlay(boolean success) {
+        this.play = success;
     }
 
     @Override
-    public void cross(Wall wall) {
+    public int getJumpLimit() {
+        return JUMP_LIMIT;
     }
 
     @Override
-    public void cross(Track track) {
+    public int getRunLimit() {
+        return RUN_LIMIT;
+    }
 
+
+    @Override
+    public String toString() {
+        return "Cat";
     }
 }

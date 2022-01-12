@@ -1,19 +1,23 @@
 package LevelTwoJava.HomeWork1;
 
 public class Wall implements Barriers {
-    final int HEIGHT = 200;
+    private final int height;
 
-    public int getHEIGHT() {
-        return HEIGHT;
+    public Wall(int height) {
+        this.height = height;
+    }
+
+    public int getHeight() {
+        return height;
     }
 
     @Override
-    public void cross(Wall wall) {
-
+    public void cross(Players players) {
+        players.jump(this);
     }
 
     @Override
-    public void cross(Track track) {
-
+    public String toString() {
+        return "Стена высотой : " + height + " метров";
     }
 }

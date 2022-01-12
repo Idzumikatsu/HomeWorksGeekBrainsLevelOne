@@ -1,19 +1,23 @@
 package LevelTwoJava.HomeWork1;
 
 public class Track implements Barriers {
-    final int LENGTH = 50;
+    private final int length;
 
-    public int getLENGTH() {
-        return LENGTH;
+    public Track(int length) {
+        this.length = length;
+    }
+
+    public int getLength() {
+        return length;
     }
 
     @Override
-    public void cross(Wall wall) {
-
+    public void cross(Players players) {
+        players.run(this);
     }
 
     @Override
-    public void cross(Track track) {
-
+    public String toString() {
+        return "Беговая дорожка длиной : " + length + " метров";
     }
 }

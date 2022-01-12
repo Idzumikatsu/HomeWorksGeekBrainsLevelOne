@@ -1,34 +1,33 @@
 package LevelTwoJava.HomeWork1;
 
 public class Human implements Players {
-    final int jumpLim = 150;
-    final int runLim = 50;
 
-    public int getJumpLim() {
-        return jumpLim;
-    }
+    private boolean play = true;
+    private static final int RUN_LIMIT = 100;
+    private static final int JUMP_LIMIT = 2;
 
-    public int getRunLim() {
-        return runLim;
+    @Override
+    public boolean isPlay() {
+        return play;
     }
 
     @Override
-    public void jump() {
-        System.out.println("Человек прыгнул");
+    public void setPlay(boolean success) {
+        this.play = success;
     }
 
     @Override
-    public void run() {
-        System.out.println("Человек побежал");
+    public int getJumpLimit() {
+        return JUMP_LIMIT;
     }
 
     @Override
-    public void cross(Wall wall) {
+    public int getRunLimit() {
+        return RUN_LIMIT;
     }
 
     @Override
-    public void cross(Track track) {
-
+    public String toString() {
+        return "Human";
     }
-
 }
