@@ -1,4 +1,4 @@
-package LevelTwoJava.HomeWork1;
+package LevelTwoJava.HomeWorkOne;
 
 public interface Players extends Runnable, Jumpable {
     boolean isPlay();

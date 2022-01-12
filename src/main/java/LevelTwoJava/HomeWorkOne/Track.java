@@ -1,4 +1,4 @@
-package LevelTwoJava.HomeWork1;
+package LevelTwoJava.HomeWorkOne;
 
 public class Track implements Barriers {
     private final int length;
