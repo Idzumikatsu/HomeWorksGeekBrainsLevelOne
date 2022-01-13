@@ -1,10 +1,10 @@
-package LevelTwoJava.HomeWork1;
+package LevelTwoJava.HomeWorkOne;
 
-public class Human implements Players {
+public class Robot implements Players {
 
     private boolean play = true;
-    private static final int RUN_LIMIT = 100;
-    private static final int JUMP_LIMIT = 2;
+    private static final int RUN_LIMIT = 200;
+    private static final int JUMP_LIMIT = 5;
 
     @Override
     public boolean isPlay() {
@@ -28,6 +28,6 @@ public class Human implements Players {
 
     @Override
     public String toString() {
-        return "Human";
+        return "Robot";
     }
 }
